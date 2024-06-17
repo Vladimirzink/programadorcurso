@@ -1,0 +1,127 @@
+
+body {
+    background: rgba(255,255,255,0.96);
+    background: radial-gradient(circle farthest-side at center center, rgba(255,255,255,0.96) 70%, rgba(34,174,241,0.96) 100%);
+    background: -webkit-radial-gradient(circle farthest-side at center center, rgba(255,255,255,0.96) 70%, rgba(34,174,241,0.96) 100%);
+    background: -moz-radial-gradient(circle farthest-side at center center, rgba(255,255,255,0.96) 70%, rgba(34,174,241,0.96) 100%);
+}
+h1{
+        text-align: center;
+   
+    color:gold;
+    -webkit-text-stroke: 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+   
+
+}
+img{
+    width: 35%;
+    height: 13%;
+    margin: 0 auto;
+    margin-left: 50%;
+    display: block;
+    border-radius: 10%;
+    box-shadow: 14px 8px 15px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 14px 8px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 8px 15px 0px rgba(0,0,0,0.75);
+}
+.nacimiento{
+    width: 40%;
+    font-weight:lighter;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+   font-size: 25px;
+ 
+
+}
+.destacado1{
+    font-weight: bold;
+    font-size: 30px;
+}
+.lugar{
+    width: 40%;
+    font-weight: lighter;
+    position: absolute;
+    top: 23%;
+    left: 5%;;
+   font-size: 25px;
+
+}
+.destacado2{
+    font-weight: bold;
+    font-size: 30px;
+}
+h2{
+   width: 40%;
+   font-weight: bold;
+   position: absolute;
+    top: 35%;
+    left: 5%;
+   font-size: 30px;
+}
+
+ul{
+    width: 40%;
+    font-weight: lighter;
+    position: absolute;
+     top: 40%;
+     left: 5%;
+    font-size: 30px;
+}
+.parrafo1{
+   
+   font-weight: lighter;
+   position: absolute;
+    top: 57%;
+    left: 5%;
+   font-size: 28px;
+}
+.parrafo2{
+   
+    font-weight: lighter;
+    position: absolute;
+     top: 65%;
+     left: 5%;
+    font-size: 28px;
+ }
+ .parrafo3{
+   
+    font-weight: lighter;
+    position: absolute;
+     top: 79%;
+     left: 5%;
+    font-size: 28px;
+ }
+
+ .boton{
+    
+    font-weight: lighter;
+    position: absolute;
+     top: 79%;
+     left: 40%;
+    font-size: 26px;
+    border: 1px solid #7b0b0b;
+    background: #e32222;
+    border-radius: 35%;
+    box-shadow: 9px 5px 8px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 5px 8px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 5px 8px 2px rgba(0,0,0,0.75);
+ }
+ .nombre{
+    color: azure;
+    
+    text-shadow: 4px 5px 3px rgba(0,0,0,0.6);
+ }
+
+ .marca_agua{
+    color: gray;
+    font-weight: lighter;
+    position: absolute;
+     top: 95%;
+    left: 45%;
+    font-size: 18px;
+
+}
