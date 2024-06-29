@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+   
+        const distancia = parseInt(prompt('ingrese la distacia que tiene que recorrer en metros:', ''));
+
+       
+
+        if (distancia <=1000) {
+            document.write('es mejor que vaya a pie');
+        } else if (distancia<=10000){
+            document.write ('es mejor que vayas en bicicleta');
+        } else if (distancia<=30000){
+            document.write ('es mejor que vayas en colectivo');
+        } else if (distancia<=100000){
+            document.write ('es mejor que vayas en auto');
+        } else {
+            document.write('Tomate un avion');
+        }
+
+        
+
+        const mensaje = 'No te olvides, caminar hace bien a la salud'
+        for(let i=0; i<6; i++){
+          alert(mensaje)
+        }
+
+
+
+    </script>
+</body>
+</html>
