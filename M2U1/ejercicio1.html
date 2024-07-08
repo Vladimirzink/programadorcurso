@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cuadrados">
+        <div class="cuadrado azul" onclick="cambiarfondo('blue')"></div>
+        <div class="cuadrado rojo" onclick="cambiarfondo('red')"></div>
+        <div class="cuadrado verde" onclick="cambiarfondo('green')"></div>
+
+    </div>
+    <style> <!-- CSS-->
+        .contenedor{
+            display: flex;
+
+        }
+
+        .cuadrado {
+            height: 150px;
+            width: 150px;
+
+        }
+        .azul {
+            background-color: blue;
+
+        }
+        .rojo{
+            background-color: red;
+        }
+        .verde{
+            background-color: green;
+        }
+
+    </style>
+    <script>
+        function cambiarfondo(color){
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+
+
+</body>
+</html>
