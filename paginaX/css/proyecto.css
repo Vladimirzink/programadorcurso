@@ -1,0 +1,32 @@
+body {
+    background-color: aliceblue;
+}
+
+footer {
+    background-color: #aaa;
+
+}
+
+h1,
+h2 {
+    font-family: 'alfa slab one', cursive;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+.hero {
+    background: url(../img/fondo_pag_papa.jpg);
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    padding: 0%;
+    margin-top: 80px;
+
+}
