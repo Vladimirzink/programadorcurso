@@ -10,69 +10,71 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/proyecto.css">
-   
+
 </head>
 
 <body>
-    <div class="container-fluid">
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <div class="logo-nav">
+                    <a>
+                        <img src="../paginaX/img/logo_sanet_vector.png" alt="Bootstrap" width="200" height="80">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <a class="navbar-logo">
-                <img src="../paginaX/img/logo_sanet_vector.png" alt="Bootstrap" width="200" height="80">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-empresa">
-                        <a class="nav-link active" aria-current="page" href="#">EMPRESA</a>
-                    </li>
-                    <li class="nav-servicios">
-                        <a class="nav-link" href="#">SERVICIOS</a>
-                    </li>
-                    <li class="nav-contacto">
-                        <a class="nav-link" href="#">CONTACTO</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <div id="botonreg">
-                        <button class="btn btn-outline-success" type="submit">Registrarse</button>
-                    </div>
-                    <div class="botoninses">
-                        <button class="btn btn-outline-success" type="submit">Iniciar Sesion</button>
-                    </div>
-                </form>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-menu">
+                            <a class="nav-link" aria-current="page" href="#">EMPRESA</a>
+                        </li>
+                        <li class="nav-menu">
+                            <a class="nav-link" href="#">SERVICIOS</a>
+                        </li>
+                        <li class="nav-menu">
+                            <a class="nav-link" href="#">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <div id="botonreg">
+                            <button class="btn btn-outline-success" type="submit">Registrarse</button>
+                        </div>
+                        <div class="botoninses">
+                            <button class="btn btn-outline-success" type="submit">Iniciar Sesion</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-
         </nav>
 
-        <div class="container-fluid">
-            <div id="home" class="hero">
-                <div class="col-lg-3 offset-lg-2">
-                    <h1>Titulo Principal</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, odit quis voluptas eos soluta
-                        voluptate similique sed aperiam! Nemo sapiente sunt dolorem rerum quisquam recusandae nulla est
-                        natus quam itaque.</p>
-                </div>
-
-                <div>
-                    <img class="imagen_1" src="img/fondo_pag_papa_vect.png" alt="img_papa1">
-
-                </div>
+    </header>
 
 
+    <div class="container-fluid">
+        <div id="home" class="hero">
+            <div class="col-lg-3 offset-lg-2">
+                <h1>Titulo Principal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, odit quis voluptas eos soluta
+                    voluptate similique sed aperiam! Nemo sapiente sunt dolorem rerum quisquam recusandae nulla est
+                    natus quam itaque.</p>
+
+                <img class="imagen_1" src="img/fondo_pag_papa_vect.png" alt="img_papa1">
             </div>
+
+
         </div>
+    </div>
 
 
 
-        <footer>
-            <p class="text-center">Diseñado por Vladimir Zink.</p>
-        </footer>
+    <footer>
+        <p class="text-center">Diseñado por Vladimir Zink.</p>
+    </footer>
 
 
 
@@ -92,7 +94,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="paginajs.js"></script>
+    <script src="paginajs.js"></script>
 </body>
 
 </html>

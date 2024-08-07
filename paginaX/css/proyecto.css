@@ -3,9 +3,22 @@ body {
     background: linear-gradient(0deg,#ff9000 0%, rgba(0,255,0,0) 0%);
     background: -webkit-linear-gradient(0deg,#ff9000 0%, rgba(0,255,0,0) 3%);
     background: -moz-linear-gradient(0deg,#ff9000 0%, rgba(0,255,0,0) 0%);
-    
+  
 
 }
+
+nav{
+    position: relative;
+    left: 100px;
+}
+
+.nav-menu{
+margin: 0 10px;
+line-height: 50px;
+
+}
+
+
 footer {
     background-color: #aaa;
 
@@ -23,6 +36,7 @@ p {
 }
 
 .hero {
+    position: relative;
     text-align: right;
     justify-content: right;
  
@@ -30,9 +44,10 @@ p {
 
 }
 .imagen_1{
+    position:relative;
+
     width: 950px;
     height: 500px;
- 
-   
+
 }
 
